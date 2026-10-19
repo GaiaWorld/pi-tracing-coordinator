@@ -1,0 +1,10 @@
+**/target
+**/*.rs.bk
+/.cargo
+/Cargo.lock
+/.idea
+/.codex
+/docs
+AGENTS.md
+/agent-skills
+/.opencode

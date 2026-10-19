@@ -9,13 +9,13 @@ license = "MIT OR Apache-2.0"
 keywords = ["pi", "tracing", "coordinator"]
 
 [dependencies]
-pi_service = { version = "=0.6.2", path = "../pi-service", default-features = false }
-pi_logger = { version = "=0.11.2", path = "../pi_logger", default-features = false }
-fory = "=0.14.1"
-fory-core = "=0.14.1"
-anyhow = { version = "1.0", default-features = false, features = ["std"] }
-tracing = { version = "0.1", default-features = false, features = ["std"] }
-futures = { version = "0.3", default-features = false, features = ["alloc"] }
+pi_service = "0.6"
+pi_logger = "0.11"
+fory = "0.14"
+fory-core = "0.14"
+anyhow = "1.0"
+tracing = "0.1"
+futures = "0.3"
 
 [dev-dependencies]
 # slice-binding：经公开start构造双真实记录器，复用锁定SDK，仅用于测试。
